@@ -1,0 +1,105 @@
+<h1>Ti.DoubleClick.BannerAdView</h1>
+
+<h2>Description</h2>
+
+<p>A view for displaying ads delivered from DoubleClick for Publishers.
+A DoubleClick BannerAdView is created by the method <a href="index.html">Ti.DoubleClick.createBannerAdView</a>.
+It provides access to Google&#39;s DoubleClick for Publishers advertising services.</p>
+
+<h2>Properties</h2>
+
+<h3>adUnitId[adUnitId]</h3>
+
+<p>The ad&#39;s DFP ad unit ID (Required)</p>
+
+<h3>adSize[object]</h3>
+
+<p>A optional dictionary of key-values specifying the size of the ad to display. If no value is specified then
+the default banner size is used.</p>
+
+<ul><li>width[int] - the width of the ad (Required)</li><li>height[int] - the height of the ad (Required)</li></ul>
+
+<h3>testing[boolean]</h3>
+
+<p>Whether or not DoubleClick should be run in testing mode. Running in testing mode returns
+test ads to the simulator when running in simulator. Default is <code>false</code>.</p>
+
+<h3>validAdSizes[array]</h3>
+
+<p>An optional array of ad sizes (Dictionary entries) that specifies multiple ad sizes which may be
+served. Before using this property you must create a line item targeting the same ad unit id
+that is associated with different size creatives. Each entry in the array is a dictionary
+of key-values specifying the size of the ad to display.</p>
+
+<ul><li>width[int] - the width of the ad (Required)</li><li>height[int] - the height of the ad (Required)</li></ul>
+
+<h3>customTargeting[object]</h3>
+
+<p>An optional dictionary of key-values used to target DFP campaigns. Out of respect for user privacy,
+Google asks that you only specify location and demographic data if that information is already
+used by your app.</p>
+
+<h3>location[object]</h3>
+
+<p>An optional dictionary with the location of the user for location-based ads.</p>
+
+<ul><li>latitude[float] - the latitude of the user</li><li>longitude[float] - the longitude of the user</li><li>accuracy[float] - accuracy of the location data</li></ul>
+
+<h3>Ti.DoubleClick.View.width[double]</h3>
+
+<p>The width of the container your ad will be placed in.</p>
+
+<h3>Ti.DoubleClick.View.height[double]</h3>
+
+<p>The height of the container your ad will be placed in.</p>
+
+<h2>Events</h2>
+
+<h3>appEvent</h3>
+
+<p>Sent by DoubleClick for Publishers for specific events.</p>
+
+<h4>Properties</h4>
+
+<p>The specify property name and value are contained in the event object.</p>
+
+<h3>willChangeAdSizeTo</h3>
+
+<p>Sent when the size of the ad is changed (applicable when using multiple ad sizes via the <code>validAdSizes</code> property).</p>
+
+<h4>Properties</h4>
+
+<ul><li>oldWidth[int] - the previous width of the ad</li><li>oldHeight[int] - the previous height of the ad</li><li>newWidth[int] - the new width of the ad</li><li>newHeight[int] - the new height of the ad</li></ul>
+
+<h3>didReceiveAd</h3>
+
+<p>Sent when an ad request loaded an ad.</p>
+
+<h3>didFailToReceiveAd</h3>
+
+<p>Sent when an ad request failed. Normally this is because no network connection was available or no ads were available (i.e. no fill).</p>
+
+<h4>Properties</h4>
+
+<ul><li>error[string] - error message</li></ul>
+
+<h3>willPresentScreen</h3>
+
+<p>Sent just before presenting the user a full screen view, such as a browser, in response to clicking on an ad. Use this
+opportunity to stop animations, time sensitive interactions, etc.</p>
+
+<p>Normally the user looks at the ad, dismisses it, and control returns to your application by firing off &quot;didDismissScreen&quot;.
+However if the user hits the Home button or clicks on an App Store link your application may end.
+In that case, &quot;willLeaveApplication&quot; would fire.</p>
+
+<h3>willDismissScreen</h3>
+
+<p>Sent just before dismissing a full screen view.</p>
+
+<h3>didDismissScreen</h3>
+
+<p>Sent just after dismissing a full screen view. Use this opportunity to restart anything you may have stopped as part of &quot;willPresentScreen&quot;.</p>
+
+<h3>willLeaveApplication</h3>
+
+<p>Sent just before the application will background or terminate because the user clicked on an ad that will launch another application (such as the App Store).</p>

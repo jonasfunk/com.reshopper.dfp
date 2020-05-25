@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* TiDoubleclickModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiDoubleclickModule.h */; };
+		24DD6CFA1134B3F500162E58 /* TiDoubleclickModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiDoubleclickModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* TiDoubleclickModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiDoubleclickModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* TiDoubleclickModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiDoubleclickModuleAssets.m */; };
+		A29702DF163EC96500F7A5C1 /* TiDoubleclickBannerAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = A29702D7163EC96500F7A5C1 /* TiDoubleclickBannerAdView.h */; };
+		A29702E0163EC96500F7A5C1 /* TiDoubleclickBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = A29702D8163EC96500F7A5C1 /* TiDoubleclickBannerAdView.m */; };
+		A29702E1163EC96500F7A5C1 /* TiDoubleclickBannerAdViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A29702D9163EC96500F7A5C1 /* TiDoubleclickBannerAdViewProxy.h */; };
+		A29702E2163EC96500F7A5C1 /* TiDoubleclickBannerAdViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A29702DA163EC96500F7A5C1 /* TiDoubleclickBannerAdViewProxy.m */; };
+		A29702E3163EC96500F7A5C1 /* TiDoubleclickInterstitialAdProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A29702DB163EC96500F7A5C1 /* TiDoubleclickInterstitialAdProxy.h */; };
+		A29702E4163EC96500F7A5C1 /* TiDoubleclickInterstitialAdProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A29702DC163EC96500F7A5C1 /* TiDoubleclickInterstitialAdProxy.m */; };
+		A29702E7163ED22C00F7A5C1 /* TiDoubleclickDFPAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A29702E5163ED22C00F7A5C1 /* TiDoubleclickDFPAdRequest.h */; };
+		A29702E8163ED22C00F7A5C1 /* TiDoubleclickDFPAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A29702E6163ED22C00F7A5C1 /* TiDoubleclickDFPAdRequest.m */; };
+		A29919A71636F6C100E1F9DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29919A21636F6C100E1F9DE /* AudioToolbox.framework */; };
+		A29919A81636F6C100E1F9DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29919A31636F6C100E1F9DE /* CoreGraphics.framework */; };
+		A29919A91636F6C100E1F9DE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29919A41636F6C100E1F9DE /* MessageUI.framework */; };
+		A29919AA1636F6C100E1F9DE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29919A51636F6C100E1F9DE /* StoreKit.framework */; };
+		A29919AB1636F6C100E1F9DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29919A61636F6C100E1F9DE /* SystemConfiguration.framework */; };
+		A29919AD1636F6C800E1F9DE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29919AC1636F6C800E1F9DE /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AA747D9F0F9514B9006C5449 /* TiDoubleclick_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiDoubleclick_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		B02C9C7B237C1E1D00A7A3D4 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02C9C77237C1E1C00A7A3D4 /* GoogleAppMeasurement.framework */; };
+		B02C9C7C237C1E1D00A7A3D4 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02C9C78237C1E1C00A7A3D4 /* nanopb.framework */; };
+		B02C9C7D237C1E1D00A7A3D4 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02C9C79237C1E1D00A7A3D4 /* GoogleMobileAds.framework */; };
+		B02C9C7E237C1E1D00A7A3D4 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02C9C7A237C1E1D00A7A3D4 /* GoogleUtilities.framework */; };
+		B084B74D230ADD6700B5D848 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B084B74C230ADD6700B5D848 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = doubleclick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* TiDoubleclickModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiDoubleclickModule.h; path = Classes/TiDoubleclickModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* TiDoubleclickModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiDoubleclickModule.m; path = Classes/TiDoubleclickModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* TiDoubleclickModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiDoubleclickModuleAssets.h; path = Classes/TiDoubleclickModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* TiDoubleclickModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiDoubleclickModuleAssets.m; path = Classes/TiDoubleclickModuleAssets.m; sourceTree = "<group>"; };
+		A29702D7163EC96500F7A5C1 /* TiDoubleclickBannerAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiDoubleclickBannerAdView.h; path = Classes/TiDoubleclickBannerAdView.h; sourceTree = "<group>"; };
+		A29702D8163EC96500F7A5C1 /* TiDoubleclickBannerAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiDoubleclickBannerAdView.m; path = Classes/TiDoubleclickBannerAdView.m; sourceTree = "<group>"; };
+		A29702D9163EC96500F7A5C1 /* TiDoubleclickBannerAdViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiDoubleclickBannerAdViewProxy.h; path = Classes/TiDoubleclickBannerAdViewProxy.h; sourceTree = "<group>"; };
+		A29702DA163EC96500F7A5C1 /* TiDoubleclickBannerAdViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiDoubleclickBannerAdViewProxy.m; path = Classes/TiDoubleclickBannerAdViewProxy.m; sourceTree = "<group>"; };
+		A29702DB163EC96500F7A5C1 /* TiDoubleclickInterstitialAdProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiDoubleclickInterstitialAdProxy.h; path = Classes/TiDoubleclickInterstitialAdProxy.h; sourceTree = "<group>"; };
+		A29702DC163EC96500F7A5C1 /* TiDoubleclickInterstitialAdProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiDoubleclickInterstitialAdProxy.m; path = Classes/TiDoubleclickInterstitialAdProxy.m; sourceTree = "<group>"; };
+		A29702E5163ED22C00F7A5C1 /* TiDoubleclickDFPAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiDoubleclickDFPAdRequest.h; path = Classes/TiDoubleclickDFPAdRequest.h; sourceTree = "<group>"; };
+		A29702E6163ED22C00F7A5C1 /* TiDoubleclickDFPAdRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiDoubleclickDFPAdRequest.m; path = Classes/TiDoubleclickDFPAdRequest.m; sourceTree = "<group>"; };
+		A29919A21636F6C100E1F9DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A29919A31636F6C100E1F9DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A29919A41636F6C100E1F9DE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A29919A51636F6C100E1F9DE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A29919A61636F6C100E1F9DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A29919AC1636F6C800E1F9DE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		AA747D9E0F9514B9006C5449 /* TiDoubleclick_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiDoubleclick_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B02C9C77237C1E1C00A7A3D4 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = platform/GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		B02C9C78237C1E1C00A7A3D4 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = platform/nanopb.framework; sourceTree = "<group>"; };
+		B02C9C79237C1E1D00A7A3D4 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = platform/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		B02C9C7A237C1E1D00A7A3D4 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = platform/GoogleUtilities.framework; sourceTree = "<group>"; };
+		B084B74C230ADD6700B5D848 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libTiDoubleclick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiDoubleclick.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B084B74D230ADD6700B5D848 /* AVFoundation.framework in Frameworks */,
+				B02C9C7C237C1E1D00A7A3D4 /* nanopb.framework in Frameworks */,
+				B02C9C7B237C1E1D00A7A3D4 /* GoogleAppMeasurement.framework in Frameworks */,
+				A29919AD1636F6C800E1F9DE /* AdSupport.framework in Frameworks */,
+				A29919A71636F6C100E1F9DE /* AudioToolbox.framework in Frameworks */,
+				B02C9C7D237C1E1D00A7A3D4 /* GoogleMobileAds.framework in Frameworks */,
+				A29919A81636F6C100E1F9DE /* CoreGraphics.framework in Frameworks */,
+				A29919A91636F6C100E1F9DE /* MessageUI.framework in Frameworks */,
+				A29919AA1636F6C100E1F9DE /* StoreKit.framework in Frameworks */,
+				A29919AB1636F6C100E1F9DE /* SystemConfiguration.framework in Frameworks */,
+				B02C9C7E237C1E1D00A7A3D4 /* GoogleUtilities.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libTiDoubleclick.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* doubleclick */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = doubleclick;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02C9C77237C1E1C00A7A3D4 /* GoogleAppMeasurement.framework */,
+				B02C9C79237C1E1D00A7A3D4 /* GoogleMobileAds.framework */,
+				B02C9C7A237C1E1D00A7A3D4 /* GoogleUtilities.framework */,
+				B02C9C78237C1E1C00A7A3D4 /* nanopb.framework */,
+				B084B74C230ADD6700B5D848 /* AVFoundation.framework */,
+				A29919AC1636F6C800E1F9DE /* AdSupport.framework */,
+				A29919A21636F6C100E1F9DE /* AudioToolbox.framework */,
+				A29919A31636F6C100E1F9DE /* CoreGraphics.framework */,
+				A29919A41636F6C100E1F9DE /* MessageUI.framework */,
+				A29919A51636F6C100E1F9DE /* StoreKit.framework */,
+				A29919A61636F6C100E1F9DE /* SystemConfiguration.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A29702D7163EC96500F7A5C1 /* TiDoubleclickBannerAdView.h */,
+				A29702D8163EC96500F7A5C1 /* TiDoubleclickBannerAdView.m */,
+				A29702E5163ED22C00F7A5C1 /* TiDoubleclickDFPAdRequest.h */,
+				A29702E6163ED22C00F7A5C1 /* TiDoubleclickDFPAdRequest.m */,
+				A29702D9163EC96500F7A5C1 /* TiDoubleclickBannerAdViewProxy.h */,
+				A29702DA163EC96500F7A5C1 /* TiDoubleclickBannerAdViewProxy.m */,
+				A29702DB163EC96500F7A5C1 /* TiDoubleclickInterstitialAdProxy.h */,
+				A29702DC163EC96500F7A5C1 /* TiDoubleclickInterstitialAdProxy.m */,
+				24DE9E0F11C5FE74003F90F6 /* TiDoubleclickModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* TiDoubleclickModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* TiDoubleclickModule.h */,
+				24DD6CF81134B3F500162E58 /* TiDoubleclickModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TiDoubleclick_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* TiDoubleclick_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* TiDoubleclickModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* TiDoubleclickModuleAssets.h in Headers */,
+				A29702DF163EC96500F7A5C1 /* TiDoubleclickBannerAdView.h in Headers */,
+				A29702E1163EC96500F7A5C1 /* TiDoubleclickBannerAdViewProxy.h in Headers */,
+				A29702E3163EC96500F7A5C1 /* TiDoubleclickInterstitialAdProxy.h in Headers */,
+				A29702E7163ED22C00F7A5C1 /* TiDoubleclickDFPAdRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* doubleclick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "doubleclick" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doubleclick;
+			productName = doubleclick;
+			productReference = D2AAC07E0554694100DB518D /* libTiDoubleclick.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "doubleclick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* doubleclick */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* doubleclick */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* TiDoubleclickModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* TiDoubleclickModuleAssets.m in Sources */,
+				A29702E0163EC96500F7A5C1 /* TiDoubleclickBannerAdView.m in Sources */,
+				A29702E2163EC96500F7A5C1 /* TiDoubleclickBannerAdViewProxy.m in Sources */,
+				A29702E4163EC96500F7A5C1 /* TiDoubleclickInterstitialAdProxy.m in Sources */,
+				A29702E8163ED22C00F7A5C1 /* TiDoubleclickDFPAdRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* doubleclick */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiDoubleclick.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/platform",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiDoubleclick_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiDoubleclick;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DSTROOT = /tmp/TiDoubleclick.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/platform",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiDoubleclick_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiDoubleclick;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiDoubleclick.dst;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiDoubleclick_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiDoubleclick;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/TiDoubleclick.dst;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiDoubleclick_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiDoubleclick;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_THUMB_SUPPORT = NO;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_THUMB_SUPPORT = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "doubleclick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "doubleclick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

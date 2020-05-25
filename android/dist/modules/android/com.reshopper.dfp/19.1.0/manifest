@@ -1,0 +1,20 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+# 
+# 10.09.2018 - implemented Facebook mediation adaptor
+# 20.05.2020 - removed Facebook mediation adaptor
+version: 19.1.0
+apiversion: 4
+architectures: arm64-v8a armeabi-v7a x86 x86_64
+description: com.reshopper.dfp
+author: Jonas Funk
+license: Specify your license
+copyright: Copyright (c) 2016 by Your Company
+
+# these should not be edited
+name: dfp
+moduleid: com.reshopper.dfp
+guid: 9278979a-589f-4fee-acf4-1673c2e24d86
+platform: android
+minsdk: 9.0.1
